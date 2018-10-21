@@ -50,7 +50,6 @@ scor.src = "sounds/score.mp3";
 
 document.addEventListener("keydown",moveUp);
 document.addEventListener("click",moveUp);
-document.getElementById("bttn2").addEventListener("click",moveUp);
 
 function moveUp(){
     bY -= 100;
