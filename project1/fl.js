@@ -53,7 +53,7 @@ document.addEventListener("click",moveUp);
 document.getElementById("bttn2").addEventListener("click",moveUp);
 
 function moveUp(){
-    bY -= 60;
+    bY -= 80;
     fly.play();
 }
 
