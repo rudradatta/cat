@@ -5,6 +5,7 @@ var ctx = cvs.getContext("2d");
     location.reload();
 }
 document.getElementById("bttn").addEventListener("click",rld);
+document.getElementById("canvas").addEventListener("onmouseover",moveUp);
 
 
 
